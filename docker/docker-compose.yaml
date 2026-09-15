@@ -1,0 +1,22 @@
+services:
+  ros2:
+    container_name: ros2k
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+
+    network_mode: host
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - TURTLEBOT3_MODEL=burger
+
+    volumes:
+      - ../ros2_ws:/workspace/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+
+    working_dir: /workspace/ros2_ws
+
+    stdin_open: true
+    tty: true
