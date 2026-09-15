@@ -17,7 +17,7 @@ Step-by-step instructions to set up and run the project.
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/emmysai/chat2robot_k.git
 cd chat2robot_k
 ```
 
