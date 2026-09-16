@@ -137,8 +137,6 @@ Alternatively, set the key before starting the chatbot:
 export GOOGLE_API_KEY="YOUR_API_KEY"
 ```
 
-Files such as `key.txt`, `kex.txt` and `.env` should be included in `.gitignore`.
-
 # Example Commands
 
 The chatbot can be controlled with natural language, for example:
