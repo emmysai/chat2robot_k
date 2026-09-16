@@ -1,4 +1,4 @@
-# chat2robot_k_final
+# chat2robot_k
 
 # Project: LLM-Based Robot Control for ROS2
 
